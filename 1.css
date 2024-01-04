@@ -1,0 +1,1486 @@
+<br>
+         <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+	<!DOCTYPE html>
+		
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Static Navbar Extended</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <nav role="navigation" class="navbar navbar-default">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+   <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+             <Div22>   <span class="sr-only">Toggle navigation</span></div21>
+                <span class="icon-bar"></span>
+                
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+   <a href="gameethel@gmail.com" class="navbar-brand">A.D CLINIC.com</a>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+   <ul class="nav navbar-nav">
+    <li class="active"><a href="1.html">Home</a></li>
+ 
+ 
+    <li><a href="https://gameethel@gmail.com">REPORT BUG</a></li>
+        <li class="dropdown">
+     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Social <b class="caret"></b></a>
+     <ul role="menu" class="dropdown-menu">
+      </ul>
+    </li>
+  </ul>
+
+   <form role="search" class="navbar-form navbar-left">
+    <div class="form-group">
+     <input type="text" placeholder="Sometimes doesn't work" class="form-control">
+    </div>
+   </form>
+   <ul class="nav navbar-nav navbar-right">
+
+   </ul>
+  </div>
+ </nav>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+     
+<!DOCTYPE html>
+<html>
+
+<head>
+	<Style>
+		Span4{
+			Color:darkblue;}
+		Hr{
+			Height:12px;
+			Background:dodgerblue;
+Margin:40px;
+}
+			</Style>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Modals via javascript</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap-theme.css">
+
+</head>
+
+<body>
+ <!-- Button HTML (to Trigger Modal) -->
+
+
+ <!-- Modal HTML -->
+ <div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-header">
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+     
+<h4 class="modal-title">Info</h4>
+    </div>
+    <div class="modal-body">
+     <p>Save your time and money by using this site</p>
+     <H5>HOW TO USE</H5>
+     <p class="text-warning"><small>search for your guessing disease or symptoms<br>
+Than you will get information about your searching disease and its medicine or vaccination by form of video</small></p>
+    <H5>Developer</h5>
+    <Small><LI><B>Biruk Yehualashet</b>=>Grade 11 Natural Science  Student<br>
+    <li>	If you have any questions or suggestions<a href "gameethel@gmail.com"><b><div21> mail me</div21></b></a></li>
+    <Br><li>Support me by subscribing My Youtube Channel (⁠☞⁠ ⁠ಠ⁠_⁠ಠ⁠)⁠☞ <a href "gameethel@gmail.com"><b> <div21>AHADU STUDIO</div21></b></a></small>
+    <H4>some users comments</h4><br><b>
+    	<small>ASEFA DEMAMU</b></small> <small><i>Posted on January 20, 2023</i></small></h4>
+   <p>There are no words that can express my thanks for you. If words could be hugs I would send you pages.</p>
+<b><small>BEREKET ABEBE</b></small> <small><i>Posted on February 15, 2023</i></small></h4>
+   <p>If the world had more people like you it would be a better place. You do make a difference.</p>
+
+    
+</div>
+    <div class="modal-footer">
+     <button type="button" class="btn btn-default" data-dismiss="modal"><div21>Close<div21></button>
+   <a href="https://YouTube.com/@ahadu0">  <button type="button" class="btn btn-primary"><div21>Subscribe</div21></button></a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <script src="jquery.js"></script>
+ <script src="bootstrap.js"></script>
+
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+   $(".btn").click(function()
+   {
+    $("#myModal").modal('show');
+   });
+  });
+ </script>
+
+</body>
+
+</html>
+
+	 
+
+ <style type="text/css">
+  .bs-example {
+   margin: 4px;
+  }
+ 
+  
+  Span8{Text-align:center;
+  	Color:darkblue;}
+  Iframe {
+Width:160px; 
+Background: black;
+Height:90px; }
+Button {
+	Height:6vh;
+	Border:2px double black;
+	Border-radius:5px;
+	Background:darkblue;
+	Color: black;
+	}
+	A{
+		Color: black;}
+ </style>
+
+</head>
+
+<body>
+ <div class="bs-example">
+  <div id="myAlert" class="alert alert-info">
+   <a href="#" class="close" data-dismiss="alert">&times;</a>
+   <strong>Note!</strong> Subscribe My Youtube Channel 
+<Br>   <A HREF="https://YouTube.com/@ahadu0"/><div21>AHADU STUDIO</div21></A>  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+   $("#myAlert").bind('closed.bs.alert', function()
+   {
+   
+   });
+  });
+ </script>
+
+</body>
+
+</html>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Pager with Disabled State</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+ <ul class="pager">
+  <li class="previous"><a href="1.html"class="active"> VIDEO FORM</a></li>
+  <li class="next"><a href="1.1.html">TEXT FORM</a></li>
+ </ul>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Alerts Events</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+ <style type="text/css">
+  .bs-example {
+   margin: 4px;
+  }
+ 
+  
+  Span8{Text-align:center;
+  	Color:darkblue;}
+  H4{margin-left:27%;
+          Text-align:center;
+          Border:1px outset black;
+          Border-radius:20px;
+          Width:50%;
+          Height:4vh;
+opacity:.7;
+          Background:lightgreen;}
+  Iframe {
+Width:160px; 
+Background: black;
+Height:90px; }
+Span77{background-color:grey;
+        Margin:20%;
+        }
+Button {
+	Height:6vh;
+	Border:2px double black;
+	Border-radius:5px;
+	Background:darkblue;
+	Color: black;
+	}
+	A{
+		Color: black;}
+		      @keyframes myAnimation {
+        from{
+opacity:0%;}
+to{opacity:100%;}
+      }
+      RED{
+              COLOR:RED;
+              }
+      P8{
+              Color:dodgerblue;}
+ </style>
+
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Pagination</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <ul class="pagination">
+  <li><a href="#">&laquo;</a></li>
+  <li><a href="1.1.html">1</a></li>
+  <li><a href="1.2.html">2</a></li>
+  <li><a href="1.3.html">3</a></li>
+  <li><a href="1.5.html">4</a></li>
+  <li><a href="1.6.html">5</a></li>
+  <li><a href="1.7.html">&raquo;</a></li>
+ </ul>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+<Div55>
+        <Span77>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Panels with List Group</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <div class="bs-example">
+  <div class="panel panel-default">
+   <!-- Default panel contents -->
+   <div class="panel-heading"></div>
+   <div class="panel-body">
+  
+   </div>
+   <!-- List group -->
+   <div class="list-group">
+
+    <a href="#" class="list-group-item"><H4>NEWS<IMG SRC="red.png"style=" animation-name: myAnimation;
+         animation-duration: .8s;
+         /* try to change the value below with a number */
+         animation-iteration-count: infinite;
+         position: relative;width:4%;"/><IMG SRC="ad.png"style=" animation-name: myAnmation;
+         animation-duration: .8s;
+         /* try to change the value below with a number */
+         animation-iteration-count: infinite;
+         position: relative;width:14%;"/></H4></H4> <span class="badge">4</span>
+			</a>
+   </div>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
+</html>
+
+<!DOCTYPE html>
+     
+<Table border-right=1 >
+					<Thead>
+						
+						
+						<Tr>
+							<Th>
+								Video</th>
+								<Th><br>Title></th>
+								<Th><br>About</th>
+								</Tr>
+								</Thead>
+								<Tbody>
+									<tr>
+										<Td><br><Small>
+		<a href="https://youtu.be/pVL8jR1mB68?si=UTWaC8wM3-X2wDWW"</a><Img src="new1.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+  </td>
+										<Td><br> <RED>Virus x new virus is coming</td>
+										<Td><br>virus x</RED></td>
+										</Tr>
+										<tr>
+										<Td><br><a href="https://youtu.be/wNRIggUIId0?si=3Mz9uVJf98ZBlcaV"</a><Img src="new2.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+										
+									<tr>
+										<Td><br><a href="https://youtu.be/3-UJaFfEWXg?si=O2bAG1O-rvGArYTM"</a><Img src="new3.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+</td>
+										<Td><br>New Symptoms of COVID-19</td>
+										<Td><br><RED>COVID-19</RED></td>
+										</Tr>
+										<tr>
+										<Td><br><a href="https://youtu.be/ErNhpF0H0xU?si=pqvIc8JsVK1qW5Cc"</a><Img src="new4.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+
+									
+</Tbody>
+										</Table>
+</Span77>
+<html>
+<head>
+   <title> Try It Yourself </title>
+</head><span77> <div class="bs-example">
+<body><!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Panels with List Group</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <div class="bs-example">
+  <div class="panel panel-default">
+   <!-- Default panel contents -->
+   <div class="panel-heading"></div>
+   <div class="panel-body">
+  SUGGESTION VIDEOS FOR YOU <br><br>
+  
+  
+  	<Small>
+		<a href="https://youtu.be/dVqXj81lJlg?si=fp6cqCxmEznK7OLo"</a><Img src="11.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>AMOEBA SYMPTOMS AND IT'S TREATMENT</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+  
+  	<a href="https://youtu.be/dVqXj81lJlg?si=fp6cqCxmEznK7OLo"</a><Img src="12.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>AMOEBA SYMPTOMS AND IT'S TREATMENT</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+  
+<a href="https://youtu.be/dVqXj81lJlg?si=fp6cqCxmEznK7OLo"</a><Img src="13.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>Athletic foot symptoms and its treatment</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+  
+    	<a href="https://youtu.be/qr74oNCvEsA?si=F5DzdXoOrMPBbu8T"</a><Img src="ch1.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>fact about Cholera</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/WYwo0JvT51Y?si=fLDHFbytcwkX3hZ3"</a><Img src="ch2.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>Cholera review in deep view</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/kuliQhjco9g?si=TuUg0jS6AeySNrK3"</a><Img src="ch3.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>Symptoms of Cholera</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/zl6NnvN28h8?si=q05bLwORK7xK_fva"</a><Img src="ch4.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>Symptoms of Cholera and tip for prevet</b><SMALL>
+<Br><span8>10 hours ago , AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/__fGOYOSlMY?si=umePxvFepT1PhbO5"</a><Img src="ch5.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>About Vibrio Cholera</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+  
+<a href="https://youtu.be/U8r3oTVMtQ0?si=8ACGlBpMMcuaLWrh"</a><Img src="p/co1.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+<br>   <img src="ic_launcher.png" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>COVID-19 Day to Day Symptoms 14 days cycle</b><SMALL>
+<Br><span8>10 months ago , AD CLINIC</small> <html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <style>
+  @-webkit-keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* Add animation (Standard syntax) */
+  
+  @keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* The modal's background */
+  
+  .modal {
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.4);
+  }
+  /* Display the modal when targeted */
+  
+  .modal:target {
+   display: table;
+   position: absolute;
+  }
+  /* The modal box */
+  
+  .modal-dialog {
+   display: table-cell;
+   vertical-align: middle;
+  }
+  /* The modal's content */
+  
+  .modal-dialog .modal-content {
+   margin: auto;
+   background-color: #f3f3f3;
+   position: relative;
+   padding: 0;
+   outline: 0;
+   border: 1px #777 solid;
+   text-align: justify;
+   width: 80%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* Add animation */
+   -webkit-animation-name: example;
+   /* Chrome, Safari, Opera */
+   -webkit-animation-duration: 0.5s;
+   /* Chrome, Safari, Opera */
+   animation-name: example;
+   animation-duration: 0.5s;
+  }
+  /* The button used to close the modal */
+  
+  .closebtn {
+   text-decoration: none;
+   float: right;
+   font-size: 35px;
+   font-weight: bold;
+   color: #fff;
+  }
+  
+  .closebtn:hover,
+  .closebtn:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+  }
+  
+  .container {
+   padding: 2px 16px;
+  }
+  
+  header {
+   background-color: #5cb85c;
+
+   color: white;
+  }
+  Span00{
+  	Width:160;
+  Height:90;
+  }
+ 
+  footer {
+   background-color: #5cb85c;
+
+   color: white;
+  }
+ b{
+ color:gold;}
+   @keyframes radial-pulse {
+From {
+        Opacity:0%;
+   }
+   To{
+  
+ Opacity:100%;
+   }
+  }
+  div21{border-radius: 90%;
+
+     animation: radial-puls 1s infinite;}
+ </style>
+
+</head>
+
+<body contenteditable="false">
+
+ <a href="#id02"> <div200>COVID-19</a></div200>
+<hr>
+ <div id="id02" class="modal">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <header class="container">
+     <a href="#" class="closebtn"><div21>x</a></div21>
+<Small>COVID-19</small>
+    </header>
+    <div class="container">
+    <H3>COVID</h3><small>
+Coronavirus disease (COVID-19)
+Source: World Health Organization
+Coronavirus disease (COVID-19) is an infectious disease
+caused by the SARS-CoV-2 virus.
+Most people who fall sick with COVID-19 will experience
+mild to moderate symptoms and recover without special
+treatment. However, some will become seriously ill and
+require medical attention.
+</Small>
+<H3>Prevention</h3><small>
+Check with your local health authority for the most
+relevant guidance for your region.
+To prevent the spread of COVID-19:
+• Maintain a safe distance from others (at least 1 metre),
+even if they dont appear to be sick.
+•Wear a mask in public, especially indoors or when
+physical distancing is not possible.
+• Choose open, well-ventilated spaces over closed ones.
+Open a window if indoors.
+• Clean your hands often. Use soap and water, or an
+alcohol-based hand rub.
+• Get vaccinated when it's your turn. Follow local
+guidance about vaccination.
+• Cover your nose and mouth with your bent elbow or a
+tissue when you cough or sneeze.
+•Stay home if you feel unwell.
+If you have a fever, cough and difficulty breathing, seek
+medical attention. Call in advance so your healthcare
+provider can direct you to the right health facility. This
+protects you, and prevents the spread of viruses and
+other infections.
+Masks
+Properly fitted masks can help to avoid Virus from us
+</Small>
+
+<H3>Treatments</h3><small>
+Scientists around the world are working to find and
+develop treatments for COVID-19.
+•Optimal supportive care includes oxygen for severely ill
+patients and those who are at risk for severe disease and
+more advanced respiratory support such as ventilation
+for patients who are critically ill.
+• Dexamethasone is a corticosteroid that can help reduce
+the length of time on a ventilator and save lives of
+patients with severe and critical illness.
+WHO does not recommend self-medication with any
+medicines, including antibiotics, as a prevention or cure
+for COVID-19.
+</Small>
+<Small>Source: WORLD HEALTH ORGANIZATION (WHO)</small>
+
+    </div>
+    <footer class="container">
+ <small>© AHADU DIGITAL CLINIC.COM <BR></small>
+    </footer>
+   </div>
+  </div>
+ </div>
+
+</body>
+
+</html>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+  </span8> </small>
+  	<a href="https://youtu.be/U8r3oTVMtQ0?si=8ACGlBpMMcuaLWrh"</a><Img src="p/co2.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>About Corona virus in 5 minutes (what's Difference from other viruses)</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+    	<a href="https://youtu.be/8WzS8C_sGbo?si=FelZS7dqMK-VKnwm"</a><Img src="p/h1.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>What is the Symptoms of HIV/AIDS</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/lowauFSefOM?si=eu31PYxQTvv7IvKB"</a><Img src="p/h2.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>HIV/AIDS Couse, Symptoms, prevent and more</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+      	<a href="https://youtu.be/m_F8AVBrjPc?si=RZlTGg4lmqWwa8Kk"</a><Img src="p/h3.jpg"style="border:2px double black;width:60%; border-radius:7px;height:auto;"/>
+
+      <br>     <img src="09.jpg" class="img-circle" alt="Circular Image"style="border:1px solid black;width:9%;">   <b> <small>ALL About HIV/AIDS</b><SMALL>
+<Br><span8>10 hours ago ,  AD CLINIC</small> </span8> </small><hr> </small>
+  </Span77><div id="toggleDemo" class="collapse in">
+  </div>
+ </div>
+</body>
+</html>
+</Small>
+   </div>
+   <!-- List group -->
+   <div class="list-group">
+
+
+         
+   </div>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Carousel</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+ <style type="text/css">
+  .carousel {
+   background: #2f4357;
+   margin-top: 20px;
+  }
+  
+  .carousel .item img {
+   margin: 0 auto;
+   /* Align slide image horizontally center */
+  }
+  
+  .bs-example {
+   margin: 20px;
+  }
+  Img7{
+          Width:2%;
+          }
+ </style>
+
+</head>
+
+<body>
+
+ <div class="bs-example">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <!-- Carousel indicators -->
+   <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>
+   <!-- Wrapper for carousel items -->
+   <div class="carousel-inner">
+    <div class="item active">
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+</head>
+
+<body>
+
+ <div class="media">
+  <div class="media-left">
+   <a href="#">
+    <img7 src="chrise.jpg" class="media-object" alt="">
+   </a>
+  </div>
+  <div class="media-body">
+   <h4 class="media-heading"> <small><i>QUETT FOR PATIENTS</i></small></h4>
+  <P>“Promise me you’ll always remember: You’re braver than you believe, and stronger than you seem, and smarter than you think.”
+—A.A. Milne</p> </div>
+ </div>
+ <hr />
+ <div class="media">
+
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+    </div>
+    <div class="item">
+  <!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+</head>
+
+<body>
+
+ <div class="media">
+  <div class="media-left">
+   <a href="#">
+    <img7 src="chrise.jpg" class="media-object">
+   </a>
+  </div>
+  <div class="media-body">
+   <h4 class="media-heading"><small><i>QUETS FOR PATIENTS</i></small></h4>
+ <P>“Nothing is impossible. The word itself says, ‘I’m Possible!’”
+—Audrey Hepburn
+</p>  </div>
+ </div>
+ <hr />
+ <div class="media">
+
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+    </div>
+    <div class="item">
+  <!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+</head>
+
+<body>
+
+ <div class="media">
+  <div class="media-left">
+   <a href="#">
+    <img7 src="chrise.jpg" class="media-object" alt="">
+   </a>
+  </div>
+  <div class="media-body">
+   <h4 class="media-heading"> <small><i>QUETS FOR PATIENTS</i></small></h4>
+  <P>“I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.”
+—Og Mandino</p>  </div>
+ </div>
+ <hr />
+ <div class="media">
+
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+    </div>
+   </div>
+   <!-- Carousel controls -->
+   <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+   </a>
+   <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+   </a>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+
+ <script type="text/javascript">
+  $(document).ready(function()
+  {
+   $('#myCollapsible').on('hidden.bs.collapse', function()
+   {
+    alert('Collapsible element has been completely closed.');
+   });
+  });
+ </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+</head>
+
+<body>
+ <div class="progress progress-striped active">
+  <div class="progress-bar" style="height:12px;width: 100%;">
+   <span class="sr-only">60% Complete</span>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Panels with Footer</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap-theme.css">
+
+</head>
+
+<body>
+        <!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Jumbotron</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <div class="container">
+  <div class="row">
+   <div class="col-xs-12">
+    <div class="jumbotron">
+     <h1>Join Poor Help Center</h1>
+     <p>In today's world health is the most wanted thing ever"<a href="https://www.who.int/news"style="color:red"/>Join Poor Help center</a>"But Some Poor people are in difficult health case and they can't do anything like getting medicine or  treatment, But if you Help Them They Will have hope to be Free from any health case.</p>
+     <p><a href="https://www.who.int/news" target="_blank" class="btn btn-primary btn-lg">Join Help center</a></p>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+ <div class="panel panel-default">
+ <H3>AHADU DIGITAL CLINIC </h3>
+  <Small><div class="panel-body">AD CLINIC ™© Copyright 2015-2016e.c <br>all right reserved <!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Pills with Dropdowns</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+ <ul class="nav nav-pills">
+
+  <li class="dropdown">
+   <a href="#" data-toggle="dropdown" class="dropdown-toggle"><div21>Contact some doctors</div21> <b class="caret"></b></a>
+   <ul class="dropdown-menu">
+    <li><a href="tel:+251 92 290 8613">DR.Yehualashet Temesgen</a></li>
+    <li><a href="tel:0930917484">DR.Lemlem</a></li>
+    <li><a href="tel:0940929876">KAGIMA CLINIC'S DOCTORS</a></li>
+
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+   </div>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+
+   </ul>
+  </li>
+ </ul>
+</div>
+  <div class="panel-footer clearfix">
+  	   <!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <style>
+  @-webkit-keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* Add animation (Standard syntax) */
+  
+  @keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* The modal's background */
+  
+  .modal {
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.4);
+  }
+  /* Display the modal when targeted */
+  
+  .modal:target {
+   display: table;
+   position: absolute;
+  }
+  /* The modal box */
+  
+  .modal-dialog {
+   display: table-cell;
+
+  }
+  /* The modal's content */
+  
+  .modal-dialog .modal-content {
+  
+   background-color: #f3f3f3;
+   position: relative;
+   padding: 0;
+   outline: 0;
+   border: 1px #777 solid;
+   text-align: justify;
+   width: 100%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* Add animation */
+   -webkit-animation-name: example;
+   /* Chrome, Safari, Opera */
+   -webkit-animation-duration: 0.5s;
+   /* Chrome, Safari, Opera */
+   animation-name: example;
+   animation-duration: 0.5s;
+  }
+  /* The button used to close the modal */
+  
+  .closebtn {
+   text-decoration: none;
+   float: right;
+   font-size: 3px;
+
+   color: #fff;
+  }
+  
+  .closebtn:hover,
+  .closebtn:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+  }
+  
+  .container {
+   padding: 1px 1px;
+  }
+  
+  header {
+   background-color: #5cb85c;
+   
+   color: white;
+  }
+  
+  footer {
+   background-color: #5cb85c;
+  
+   color: white;
+  }
+ b{
+ color:gold;}
+   @keyframes radial-pulse {
+   0% {
+    box-shadow: 0 0 8px 0px White;
+   }
+   100% {
+   	Border-radius:40%;
+    box-shadow: 0 0 0 30px black;
+   }
+  }
+  div200{border-radius: 30%;
+
+     animation: radial-pulse 1s infinite;}
+ </style>
+
+</head>
+
+<body contenteditable="false">
+
+ <a href="#id03"> <div21>MORE DOCTORS</a></div21>
+
+ <div id="id03" class="modal">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <header class="container">
+     <a href="#" class="closebtn"><div21>x</a></div21>
+<Small>Contact Doctors <!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Example of Bootstrap 3 Alert Box with Fade Animation</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+ <style type="text/css">
+  .bs-example {
+   margin: 0px;
+   Font-size:0.6px;
+  }
+ </style>
+
+</head>
+
+<body>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+
+</html></small>
+    </header>
+    <div class="container">
+    
+<! DOCTYPE html>
+	<Html>
+		<Head>
+			<Style>
+				Table { Width:100%;
+Font-size:12px;}
+				</Style>
+			<Meta name="viewport" content=width=Device-width,inital-scale=1"/>
+			</Head>
+			<Body>
+				 <div class="bs-example">
+  <div class="alert alert-warning fade in">
+   <a href="#" class="close" data-dismiss="alert">×</a>
+ <Success><b>Tip</b></success> <small>click phone numbers to call</small> 
+  </div>
+ </div>
+
+
+				<Table border=1>
+					<Thead>
+						
+						
+						<Tr>
+							<Th>
+								First Name </th>
+								<Th><br>Last Name></th>
+								<Th><br>Phone number</th>
+								</Tr>
+								</Thead>
+								<Tbody>
+									<tr>
+										<Td><br>Melese</td>
+										<Td><br>........</td>
+										<Td><br><a href="tel:0930917484;">0930917484<br></a></td>
+										</Tr>
+										<tr>
+										<Td><br>Ashenafi</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+										
+									<tr>
+										<Td><br>Yehualashet</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+										<tr>
+										<Td><br>Yehualashet</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+
+									<tr>
+										<Td><br>Yehualashet</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+										<tr>
+										<Td><br>Yehualashet</td>
+										<Td><br>Temesgen</td>
+										<Td><br><a href="tel:0930917484;">093091..<br></a></td>
+										</Tr>
+</Tbody>
+										</Table>
+										</Body>
+										</Html>
+											
+
+
+
+    </div>
+    <footer class="container">
+
+    </footer>
+   </div>
+  </div>
+ </div>
+
+</body>
+
+</html>
+   <div class="pull-right">
+   	
+    <a href="#" class="btn btn-primary"><div21>More</a></div21>
+    <!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <style>
+           @-webkit-keyframes ed {
+   from {opacity:0;}
+   To{1;}
+  @-webkit-keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* Add animation (Standard syntax) */
+  
+  @keyframes example {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 0px;
+    opacity: 1;
+   }
+  }
+  /* The modal's background */
+  
+  .modal {
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.4);
+  }
+  /* Display the modal when targeted */
+  
+  .modal:target {
+   display: table;
+   position: absolute;
+  }
+  /* The modal box */
+  
+  .modal-dialog {
+   display: table-cell;
+   vertical-align: middle;
+  }
+  /* The modal's content */
+  
+  .modal-dialog .modal-content {
+   margin: auto;
+   background-color: #f3f3f3;
+   position: relative;
+   padding: 0;
+   outline: 0;
+   border: 1px #777 solid;
+   text-align: justify;
+   width: 80%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /* Add animation */
+   -webkit-animation-name: example;
+   /* Chrome, Safari, Opera */
+   -webkit-animation-duration: 0.5s;
+   /* Chrome, Safari, Opera */
+   animation-name: example;
+   animation-duration: 0.5s;
+  }
+  /* The button used to close the modal */
+  
+  .closebtn {
+   text-decoration: none;
+   float: right;
+   font-size: 35px;
+   font-weight: bold;
+   color: #fff;
+  }
+  
+  .closebtn:hover,
+  .closebtn:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+  }
+  
+  .container {
+   padding: 2px 16px;
+  }
+  
+  header {
+   background-color: #5cb85c;
+   font-size: 25px;
+   color: white;
+  }
+  
+  footer {
+   background-color: #5cb85c;
+   font-size: 20px;
+   color: white;
+  }
+ b{
+ color:gold;}
+   @keyframes radial-pulse {
+   0% {
+    box-shadow: 0 0 8px 0px rgb(03, 20, 0);
+   }
+   100% {
+   	Border-radius:40%;
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+   }
+  }
+  div200{border-radius: 30%;
+
+     animation: radial-pulse 1s infinite;}
+ </style>
+
+</head>
+
+<body contenteditable="false">
+
+ <a href="#id01"> <div21>CREDITS</a></div21>
+
+ <div id="id01" class="modal">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <header class="container">
+     <a href="#" class="closebtn"><div21>x</a></div21>
+<h3><i><s></i>AHADU STUDIO</h3></i></s>
+    </header>
+    <div class="container">
+    
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Cool Effects with Marquees</title>
+</head>
+
+<body>
+
+ <div class="example-display" style=" position:relative;height:370px;">
+
+  
+  <marquee style="z-index:1;position:absolute;left:5%;top:0%;font-size:14pt;height:320px;" scrollamount="2.3" direction="up"><h1>CREDITS</h1><br>PROGRAMMER <br><b>BIRUK YEHUALASHET<br><br></b>
+JS IDEA<BR><b>BOOTSTRAP JS <br> JQUERY JS<BR><br></b>
+CSS IDEA<BR><b>BOOTSTRAP THEME CSS<BR><br></b>
+HTML IDEA<BR><b> BIRUK YEHUALASHET<BR><BR><br></b>
+THANKS FOR<BR><b>CODE PLAY STUDIO<br>
+KAGIMA CLINIC DOCTORS<BR>
+and ALL PEOPLES 
+ </b><br><img src="09.png"style="width:50%;margin:20px;"/><br></marquee>
+
+
+</div>
+
+</body>
+
+</html>
+
+    </div>
+    <footer class="container">
+ <small>gameethel@gmail.com<BR>© AHADU DIGITAL CLINIC.COM <BR></small>
+    </footer>
+   </div>
+  </div>
+ </div>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title>Creating Bootstrap 3 Collapsible Element via Data Attributes</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+ <!-- Optional Bootstrap theme -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+ <style type="text/css">
+  p {
+   background: #F9F9F9;
+   border: 1px solid #E1E1E8;
+   margin: 10px 0;
+   padding: 8px;
+  }
+  
+  .bs-example {
+   margin: 20px;
+  }
+ </style>
+
+</head>
+
+<body>
+
+ <div class="bs-example">
+  <!-- Trigger Button HTML -->
+
+  <!-- Collapsible Element HTML -->
+  <div id="toggleDemo" class="collapse in">
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
+   </div>
+  </div>
+ </div>
+
+ <script src="bootstrap/js/jquery.js"></script>
+ <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
